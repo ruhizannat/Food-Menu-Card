@@ -1,38 +1,140 @@
-.App {
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,300;0,400;0,500;1,400;1,500;1,700&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'League Gothic', sans-serif;
+font-family: 'Poppins', sans-serif */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   
+    background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
+    line-height: 1.5;
+    text-align: center;
+     
+    
+}
+.img{
+    width: 20rem;
+}
+.nav-item{
+  font-family: 'League Gothic', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+ margin: 0 auto;
+ text-align: center;
+  
+}
+.nav-item:hover{
+  /* color: #00e0d0 !important; */
+  color: #c59d5f !important;
+  font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: #131414;
+}
+ul{
+  list-style: none;
+}
+/* menu part css start */
+.navbar-light .navbar-nav .nav-link.active{
+  /* color: #131414 !important; */
+  /* background: #c59d5f;
+  color: #fff; */
+}
+.navbar-light .navbar-nav .nav-link{
+  /* color: #ffffff !important;
+  font-family: 'Roboto', sans-serif;  */
+  font-size: 14px;
+
+
+ 
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: #c59d5f !important;
+  font-size: 16px;
+  
+  
+
+}
+.container{
+ 
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+}
+.card{
+  border: 0.25rem solid   #c59d5f !important;
+  width: 20rem;
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ 
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.card-body{
+  padding: 3rem 0 !important;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+ 
+  
+}
+.card-title{
+ 
+  letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem !important;
+}
+ 
+ 
+
+h2 {
+  letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+   
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  text-align: center;
+  padding-top: 1rem;
+ 
+
+}
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: #c59d5f;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+h4 {
+  font-size: 0.875rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.h5{
+  color: #c59d5f;
+}
+.card-text{
+  font-size: 0.9rem;
+  padding: 0.4rem 0;
+}
+.container-fluid .row{
+  padding: 2rem;
 }
