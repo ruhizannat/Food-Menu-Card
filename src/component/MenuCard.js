@@ -11,11 +11,11 @@ export default class MenuCard extends Component {
              <div className="col-md-6">
              <div class="card container-fluid d-flex justify-content-center">
                 <img src={img} class="card-img-top img-fluid img" alt="image not found" />
-                <div class="card-body ">
-                    <h5 class="card-title">{title}</h5>
+                <div className="card-body ">
+                    <h5 className="card-title">{title}</h5>
                     {/* <h5 class="card-title">{category}</h5> */}
-                    <h5 class="card-title h5">${price}</h5>
-                    <p class="card-text text-secondary">{desc}</p>
+                    <h5 className="card-title h5">${price}</h5>
+                    <p className="card-text text-secondary">{desc}</p>
                    
                 </div>
                 </div>
