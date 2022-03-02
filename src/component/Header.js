@@ -6,7 +6,7 @@ export default class Header extends Component {
     return (
       <div className='btn-container'>
           <h2>our menu</h2>
-      <div class="underline"></div>
+      <div className="underline"></div>
          <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
           <a className="navbar-brand nav-item" href="#">
